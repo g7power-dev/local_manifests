@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="ocean-dev"
+           fetch="https://git.dark98.co.uk/ocean-dev/" 
+	   revision="havoc-q" />
+
+  <project name="android_device_motorola_ocean" path="device/motorola/ocean" remote="ocean-dev" />
+  <project name="android_device_motorola_sdm632-common" path="device/motorola/sdm632-common" remote="ocean-dev" />
+  <project name="ErfanoAbdi/android_kernel_motorola_sdm632" path="kernel/motorola/sdm632" remote="github" revision="lineage-17.1" />
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="ocean-dev" revision="lineage-17.1"/>
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-17.1" />
+</manifest>
