@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="g7power-dev"
-			fetch="ssh://git@github.com/g7power-dev/" 
+			fetch="http://github.com/g7power-dev/" 
 			revision="havoc-q" />
 
 	<project name="android_device_motorola_ocean" path="device/motorola/ocean" remote="g7power-dev" />
